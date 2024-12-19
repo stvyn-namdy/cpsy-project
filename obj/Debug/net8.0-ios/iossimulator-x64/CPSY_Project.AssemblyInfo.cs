@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CPSY_Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+021fe0267240a19eb3670506ba607c6ed4af29e9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2aa7532165ebf101b872813c182c527a12b39337")]
 [assembly: System.Reflection.AssemblyProductAttribute("CPSY_Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CPSY_Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

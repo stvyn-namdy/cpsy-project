@@ -3,11 +3,11 @@ using MySql.Data.MySqlClient;
 
 namespace CPSY_Project;
 
-public partial class ProcessRentalsPage : ContentPage
+public partial class ProcessRentalPage : ContentPage
 {
     private string connectionString = "server=localhost;Database=RentalManagement;Uid=root;Pwd=Gadgethaven16%";
 
-    public ProcessRentalsPage()
+    public ProcessRentalPage()
     {
         InitializeComponent();
     }

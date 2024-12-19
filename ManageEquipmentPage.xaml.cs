@@ -15,7 +15,7 @@ public partial class ManageEquipmentPage : ContentPage
     private async void OnAddEquipmentClicked(object sender, EventArgs e)
     {
         string name = EquipmentNameEntry.Text;
-        string category = EquipmentCategory.Text;
+        string category = EquipmentCategoryEntry.Text;
 
         if (!string.IsNullOrWhiteSpace(name) && !string.IsNullOrWhiteSpace(category))
         {

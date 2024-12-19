@@ -12,7 +12,7 @@ public partial class ManageClientsPage : ContentPage
         InitializeComponent();
     }
 
-        private async void OnAddCientClicked(object sender, EventArgs e)
+        private async void OnAddCustomerClicked(object sender, EventArgs e)
     {
         string name = CustomerNameEntry.Text;
         string contact = CustomerContactEntry.Text;
@@ -41,7 +41,7 @@ public partial class ManageClientsPage : ContentPage
         }
     }
 
-     private async void OnDeleteClientClicked(object sender, EventArgs e)
+     private async void OnDeleteCustomerClicked(object sender, EventArgs e)
     {
         int.TryParse(CustomerIdEntry.Text, out int clientId);
 

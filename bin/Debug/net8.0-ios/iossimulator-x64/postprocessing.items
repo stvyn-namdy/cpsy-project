@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="CPSY_Project.app/CPSY_Project">
+      <IsAppExtension>false</IsAppExtension>
+      <BCSymbolMapName>CPSY_Project.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>CPSY_Project.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/macbook/Documents/Projects/CPSY_Project/obj/Debug/net8.0-ios/mtouch-symbols-iossimulator-x64.list</SymbolFile>
+      <DSymName>CPSY_Project.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/macbook/Documents/Projects/CPSY_Project</SourceProjectPath>
+      <IsXPCService></IsXPCService>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

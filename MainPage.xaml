@@ -18,6 +18,6 @@
             <Button Text="View Clients"
                 Clicked="OnViewCustomerClicked" />
             <Button Text="Process Rentals"
-                Clicked="OnProcessRentalsClicked" />
+                Clicked="OnProcessRentalClicked" />
     </StackLayout>
 </ContentPage>

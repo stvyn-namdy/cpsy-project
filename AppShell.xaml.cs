@@ -1,14 +1,13 @@
-﻿using Microsoft.Maui.Controls;
-using RentalManagementApp;
+﻿using System;
+using Microsoft.Maui.Controls;
 
-namespace CPSY_Project;
-
-public partial class App : Application
+namespace CPSY_Project
 {
-	public App()
-	{
-		InitializeComponent();
-
-		MainPage = new NavigationPage(new MainPage());
-	}
+    public partial class AppShell : Shell
+    {
+        public AppShell()
+        {
+            InitializeComponent();
+        }
+    }
 }

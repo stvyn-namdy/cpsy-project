@@ -26,7 +26,7 @@ public partial class MainPage : ContentPage
 		await Navigation.PushAsync(new ViewEquipmentPage());
 	}
 
-	private async void OnViewClientsClicked(object sender, EventArgs e)
+	private async void OnViewCustomerClicked(object sender, EventArgs e)
 	{
 		await Navigation.PushAsync(new ViewCustomerPage());
 	}

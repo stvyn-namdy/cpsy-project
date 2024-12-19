@@ -46,11 +46,11 @@ build_metadata.AdditionalFiles.ManifestResourceName = CPSY_Project.ManageEquipme
 build_metadata.AdditionalFiles.TargetPath = ManageEquipmentPage.xaml
 build_metadata.AdditionalFiles.RelativePath = ManageEquipmentPage.xaml
 
-[/Users/macbook/Documents/Projects/CPSY_Project/ProcessRentalsPage.xaml]
+[/Users/macbook/Documents/Projects/CPSY_Project/ProcessRentalPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = CPSY_Project.ProcessRentalsPage.xaml
-build_metadata.AdditionalFiles.TargetPath = ProcessRentalsPage.xaml
-build_metadata.AdditionalFiles.RelativePath = ProcessRentalsPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = CPSY_Project.ProcessRentalPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ProcessRentalPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ProcessRentalPage.xaml
 
 [/Users/macbook/Documents/Projects/CPSY_Project/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
