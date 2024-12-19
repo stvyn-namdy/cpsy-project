@@ -1,37 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="RentalManagementApp.MainPage">
-    <ScrollView>
-        <VerticalStackLayout Padding="20" Spacing="20">
-            <Label Text="Rental Management System" FontSize="24" HorizontalOptions="Center" />
+             x:Class="CPSY_Project.MainPage"
+             Title="Rental Equipment Application">
 
-            <!-- Equipment Management Section -->
-            <Label Text="Manage Equipment" FontSize="18" />
-            <Entry Placeholder="Equipment Name" x:Name="EquipmentNameEntry" /> 
-            <Entry Placeholder="Description" x:Name="EquipmentDescriptionEntry" /> 
-            <Entry Placeholder="Daily Rate" x:Name="EquipmentRateEntry" Keyboard="Numeric" />
-            <Button Text="Add Equipment" Clicked="AddEquipment" />
-            <Button Text="Delete Equipment" Clicked="DeleteEquipment" />
-            <ListView x:Name="EquipmentListView" />
-
-            <!-- Client Management Section -->
-            <Label Text="Manage Clients" FontSize="18" />
-            <Entry Placeholder="First Name" x:Name="ClientFirstNameEntry" /> 
-            <Entry Placeholder="Last Name" x:Name="ClientLastNameEntry" /> 
-            <Entry Placeholder="Phone" x:Name="ClientPhoneEntry" />
-            <Entry Placeholder="Email" x:Name="ClientEmailEntry" />
-            <Button Text="Add Client" Clicked="AddClient" />
-            <ListView x:Name="ClientListView" />
-
-            <!-- Rental Management Section -->
-            <Label Text="Rent Equipment" FontSize="18" />
-            <Entry Placeholder="Client ID" x:Name="ClientIdEntry" Keyboard="Numeric" /> 
-            <Entry Placeholder="Equipment ID" x:Name="EquipmentIdEntry" Keyboard="Numeric" /> 
-            <DatePicker x:Name="RentalDatePicker" />
-            <DatePicker x:Name="ReturnDatePicker" />
-            <Entry Placeholder="Cost" x:Name="RentalCostEntry" Keyboard="Numeric" />
-            <Button Text="Process Rental" Clicked="RentEquipment" />
-        </VerticalStackLayout>
-    </ScrollView>
+    <StackLayout Padding="20" Spacing="20">
+        <Label Text="Equipment Rental System"
+            FontSize="24"
+            HorizontalOptions="Center"
+            VerticalOptions="Center" />
+            <Button Text="Manage Equipment"
+                Clicked="OnManageEquipmentClicked" />
+            <Button Text="Manage Clients"
+                Clicked="OnManageClientsClicked" />
+            <Button Text="View Equipment"
+                Clicked="OnViewEquipmentClicked" />
+            <Button Text="View Clients"
+                Clicked="OnViewCustomerClicked" />
+            <Button Text="Process Rentals"
+                Clicked="OnProcessRentalsClicked" />
+    </StackLayout>
 </ContentPage>
